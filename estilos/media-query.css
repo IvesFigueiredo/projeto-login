@@ -9,6 +9,13 @@ Desktop de 992px até 1200px
 Grandes telas acima de 1200px 
 */
 
+
+@media screen and (max-width: 768px) {
+    section#login > div#formulario > p {
+        font-size: 0.85em;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: url('../imagens/fundo9.jpg');
@@ -55,5 +62,13 @@ Grandes telas acima de 1200px
     section#login > section#formulario {
         float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
