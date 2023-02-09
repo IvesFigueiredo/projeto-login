@@ -56,7 +56,6 @@ section#login > div#formulario > h1 {
     margin-bottom: 10px;
 }
 
-
 form > div.campo {
     display: block;
     background-color: #758918;
@@ -128,7 +127,6 @@ form > a.botao:hover {
 
 form > a.botao > span {
     font-size: 1em;
-    
 }
 
 
