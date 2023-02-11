@@ -57,7 +57,7 @@ Grandes telas acima de 1200px
 
     section#login > div#imagem {
         float: right;
-        width: 50%;
+        width: 50%; /*Lembrar de modificar aqui para 50%*/
         height: 100%;
     }
 
@@ -75,8 +75,44 @@ Grandes telas acima de 1200px
         margin: 20px 0px;
     }
 
-    form > div.campo {
-        padding: 0px;
+    div.campo > input {
+        background-color: rgb(255, 255, 255);
+        font-size: 16px;
+        width: 44.2%;
+        height: 95%;
+        border: 1px solid #758918;
+        border-radius: 10px;
+        padding: 2px;
+        transform: translateY(-10.5px);
+    }
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        font-weight: bold;
+        width: 49%;
+        height: 40px;
+        background-color: #758918;
+        color: #ffff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 600;
+        width: 49%;
+        height: 40px;
+        padding-top: 7px;
+        margin-top: 5px;
+        background-color: #ffff;
+        border-radius: 10px;
+        border: 1px solid #758918;
+        text-decoration: none;
+        color: #3a450d;
     }
 
 }
